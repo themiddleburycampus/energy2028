@@ -8,6 +8,54 @@ img {
 	width: 100%;
 }
 
-.top {
-	width: 100%;
+h1 { 
+	text-align: center;
+	width: 800px;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	line-height: 46px; 
+	font-size: 48px; 
+	font-weight: 500;
+	margin: auto;
+	margin-top: 50px;
 }
+
+h2 {
+	text-align: center;
+	width: 600px;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-size: 18px; 
+	font-weight: 100;
+	margin: auto;
+	margin-top: 15px;
+	line-height: 24px;
+
+}
+
+h3 {
+	text-align: left;
+	width: 600px;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-size: 20px; 
+	font-weight: 300;
+	margin: auto;
+	margin-top: 25px;
+	color: gray;
+
+}
+
+h3:first-of-type {
+	color: black;
+	margin-top: 70px;
+}
+
+h4 {
+	text-align: center;
+	width: 600px;
+	font-family: PT Sans;
+	font-size: 18px; 
+	font-weight: 300;
+	margin: auto;
+	margin-top: 25px;
+	color: gray;
+}
+
