@@ -1,3 +1,12 @@
+.part {
+	width: 500px;
+	margin: auto;
+	height: 100px;
+	margin-top: 50px;
+	background-color: white;
+}
+
+
 img {
 	display: block;
 	margin: auto;
@@ -16,7 +25,7 @@ img {
   bottom: 0;
   display: block;
   margin: auto;
-  height: 200px;
+  height: 100px;
 }
 
 .footer img {
@@ -31,16 +40,17 @@ h1 {
 	text-align: center;
 	width: 800px;
 	font-family: PT Sans;
-	line-height: 50px; 
+	line-height: 70px; 
 	font-size: 48px; 
 	font-weight: 500;
 	margin: auto;
 	margin-top: 50px;
 	font-weight: bold;
+	color: white;
 }
 
 p:first-of-type {
-	margin-top: 70px;
+	margin-top: 30px;
 }
 
 p {
@@ -66,7 +76,7 @@ p {
 
 .body {
 	height: auto;
-	margin-bottom: 200px;
+	margin-bottom: 100px;
 }
 
 p a {
@@ -92,7 +102,7 @@ h2 {
 h3 {
 	text-align: left;
 	width: 650px;
-	font-family: Georgia, Times, "Times New Roman", serif;
+	font-family: PT Sans;
 	font-size: 20px; 
 	font-weight: 300;
 	margin: auto;
@@ -107,14 +117,20 @@ h3 {
 	color: gray;
 	font-size: 18px;
 	margin-bottom: 10px;
+	width: auto;
+	text-align: center;
 }
 
-h3:first-of-type {
-	margin-top: 70px;
+.title {
+	font-size: 28px;
+	color: #3A5D8C;
+	width: auto;
+	text-align: center;
 }
+
 
 h4:first-of-type {
-	margin-top: 25px;
+	margin-top: 35px;
 }
 
 h4 {
@@ -129,7 +145,7 @@ h4 {
 }
 
 h4 a {
-	color: gray;
+	color: black;
 	text-decoration: none;
 }
 
