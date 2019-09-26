@@ -7,7 +7,7 @@
 }
 
 
-img {
+.logo {
 	display: block;
 	margin: auto;
 	margin-top: 10px
@@ -34,19 +34,48 @@ img {
 
 .header {
 	width: 100%;
+	max-width: 650px;
+	margin: auto;
 }
 
 h1 { 
 	text-align: center;
-	width: 800px;
+	width: 100%;
+	max-width: 500px;
 	font-family: PT Sans;
 	line-height: 70px; 
 	font-size: 48px; 
 	font-weight: 500;
 	margin: auto;
 	margin-top: 50px;
-	font-weight: bold;
 	color: white;
+}
+
+figcaption {
+	font-family: PT Sans;
+	color: gray;
+	font-size: 13px;
+}
+
+
+.article {
+	font-size: 18px; 
+	margin-top:50px;
+	line-height: 50px;
+
+}
+
+.article-title {
+	color: gray;
+	margin-top: 25px;
+	font-weight: normal;
+	line-height: 30px;
+	font-size: 28px;
+	font-family: PT Sans;
+}
+
+h2 .article-title  {
+	color: gray;
 }
 
 p:first-of-type {
@@ -74,8 +103,17 @@ p {
 	margin-top: 45px;
 }
 
-.body {
+body {
 	height: auto;
+	margin: 0px!important;
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+.body {
 	margin-bottom: 100px;
 }
 
@@ -90,7 +128,6 @@ p a:hover{
 
 h2 {
 	text-align: center;
-	width: 650px;
 	font-family: PT Sans;
 	font-size: 18px; 
 	font-weight: 100;
@@ -122,10 +159,20 @@ h3 {
 }
 
 .title {
-	font-size: 28px;
-	color: #3A5D8C;
+	font-size: 36px;
+	color: lightgray;
 	width: auto;
 	text-align: center;
+	margin-top: 25px;
+}
+
+.title a {
+	color: #3A5D8C;
+	text-decoration: none;
+}
+
+.title a:hover {
+	text-decoration: underline;
 }
 
 
@@ -135,7 +182,6 @@ h4:first-of-type {
 
 h4 {
 	text-align: center;
-	width: 600px;
 	font-family: PT Sans;
 	font-size: 14px; 
 	font-weight: 300;
