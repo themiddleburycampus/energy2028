@@ -7,6 +7,15 @@
 	text-align: left;
 }
 
+.item {
+	width: 650px;
+	margin: auto;
+	margin-top: 25px;
+	margin-bottom: 35px;
+	background-color: white;
+	text-align: left;
+}
+
 .divider {
 	width: 650px;
 	color: lightgray;
@@ -21,11 +30,21 @@
 
 h2.subhead {
 	text-align: left;
-	margin-top: 20px;
+	margin-top: 10px;
 	font-size: 16px;
 	line-height: 20px;
 	color: black;
 	font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+.item_desc {
+	text-align: left;
+	margin: auto;
+	width: 500px;
+	line-height: 20px;
+	font-size: 16px;
+	margin-top: 5px;
+	color: dimgray;
 }
 
 
@@ -57,7 +76,7 @@ h2.subhead {
 h1 { 
 	text-align: center;
 	width: 100%;
-	max-width: 790px;
+	max-width: 800px;
 	font-family: PT Sans;
 	font-size: 48px; 
 	font-weight: 500;
@@ -74,8 +93,8 @@ figcaption {
 
 
 .article {
-	font-size: 28px; 
-	margin-top:20px;
+	font-size: 18px; 
+	margin-top:10px;
 	line-height: 50px;
 	color: gray;
 
@@ -94,8 +113,8 @@ figcaption {
 
 .article-title-part {
 	font-size: 20px;
-	color: #FF8C00;
-	margin-top: 35px;
+	color: #e37d00;
+	margin-top: 10px;
 	line-height: 20px;
 }
 
@@ -136,6 +155,12 @@ body {
 
 a {
 	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: gray;
+	text-decoration: none;
 }
 
 .body {
@@ -148,7 +173,7 @@ p a {
 }
 
 p a:hover{
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 h2 {
@@ -183,6 +208,32 @@ h3.breaker {
 	text-align: center;
 }
 
+h3.breaker2 {
+	font-size: 28px;
+	margin-top: 35px;
+	margin-bottom: 25px;
+	text-align:center;
+	font-weight:normal;
+	width: 400px;
+}
+
+.item_date {
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	color: black;
+}
+
+.item_year {
+	color:black;
+	text-align: center;
+	font-size: 32px;
+	margin-top: 50px;
+	margin-bottom: 25px;
+}
+
+
+
 .date {
 	font-family: PT Sans;
 	color: black;
@@ -191,6 +242,7 @@ h3.breaker {
 	width: auto;
 	text-align: left;
 	font-weight: normal;
+	margin-top: 0px;
 }
 
 .date_2 {
@@ -203,8 +255,15 @@ h3.breaker {
 	font-weight: normal;
 }
 
+.item_title {
+	text-align: center;
+	font-size: 26px;
+	margin-top: 0px;
+	font-weight: bold;
+}
+
 .title {
-	font-family: Georgia, Times, "Times New Roman", serif;
+	font-family: PT Sans;
 	font-size: 30px;
 	width: auto;
 	text-align: left;
@@ -221,17 +280,11 @@ h3.breaker {
 	margin-top: 5px;
 }
 
-
-.title a {
-	color: black;
-	text-decoration: none;
+.part a:hover{
+	background-color: black;
 }
 
-.title a:hover {
-	color: #FF8C00;
-	text-decoration: none;
-
-}
+#span_title a:hover{color:#f0b978;}
 
 
 h4:first-of-type {
@@ -255,6 +308,7 @@ h4 a {
 }
 
 h4 a:hover {
-	text-decoration: underline;
+	text-decoration: none;
+	color: gray;
 }
 
