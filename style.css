@@ -16,6 +16,10 @@
 	text-align: left;
 }
 
+.item:last-of-type{
+	margin-bottom: 80px;
+}
+
 .divider {
 	width: 650px;
 	color: lightgray;
@@ -94,7 +98,7 @@ figcaption {
 
 .article {
 	font-size: 18px; 
-	margin-top:10px;
+	margin-top:25px;
 	line-height: 50px;
 	color: gray;
 
@@ -114,7 +118,7 @@ figcaption {
 .article-title-part {
 	font-size: 20px;
 	color: #e37d00;
-	margin-top: 10px;
+	margin-top: 25px;
 	line-height: 20px;
 }
 
@@ -128,13 +132,13 @@ p:first-of-type {
 
 p {
 	text-align: left;
-	width: 650px;
+	max-width: 650px;
 	font-family: Georgia, Times, "Times New Roman", serif;
-	font-size: 18px; 
+	font-size: 19px; 
 	font-weight: 100;
 	margin: auto;
-	margin-top: 15px;
-	line-height: 28px;
+	margin-top: 25px;
+	line-height: 1.618em;
 
 }
 
@@ -214,7 +218,7 @@ h3.breaker2 {
 	margin-bottom: 25px;
 	text-align:center;
 	font-weight:normal;
-	width: 400px;
+	width: 450px;
 }
 
 .item_date {
@@ -230,6 +234,9 @@ h3.breaker2 {
 	font-size: 32px;
 	margin-top: 50px;
 	margin-bottom: 25px;
+	background-color:lightgray;
+	border-radius: 10px;
+	width: 130px;
 }
 
 
