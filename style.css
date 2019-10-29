@@ -17,7 +17,7 @@
 }
 
 .item:last-of-type{
-	margin-bottom: 80px;
+	margin-bottom: 60px;
 }
 
 .divider {
@@ -43,12 +43,12 @@ h2.subhead {
 
 .item_desc {
 	text-align: left;
-	width: 450px;
+	width: 550px;
 	line-height: 20px;
 	font-size: 16px;
 	margin-top: 5px;
 	color: black;
-	margin-left: 23px;
+	margin-left: 20px;
 	margin-bottom: 25px;
 }
 
@@ -152,6 +152,14 @@ p {
 	margin-top: 45px;
 }
 
+fig {
+	display: block;
+	margin: auto;
+	max-width: 1000px;
+	margin-top: 50px;
+	margin-bottom:50px;
+}
+
 body {
 	height: auto;
 	margin: 0px!important;
@@ -238,7 +246,7 @@ h3.breaker2 {
 	text-align: left;
 	font-size: 20px;
 	font-weight: normal;
-	color: gray;
+	color: black;
 	width: auto;
 	margin-top: 0px;
 }
@@ -266,7 +274,7 @@ h3.breaker2 {
 
 
 .item_year {
-	color:gray;
+	color:black;
 	text-align: center;
 	font-size: 22px;
 	margin-top: 30px;
@@ -280,7 +288,7 @@ h3.breaker2 {
 }
 
 .timeline {
-	width: 650px;
+	width: 800px;
 	margin: auto;
 }
 
