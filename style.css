@@ -8,10 +8,10 @@
 }
 
 .item {
-	width: 800px;
+	width: 650px;
 	margin: auto;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
 	background-color: white;
 	text-align: left;
 }
@@ -265,6 +265,7 @@ h3.breaker2 {
 	border: none;
 	display: inline-flex;
 	height: 40px;
+	background-color: white;
 }
 
 .landmark:focus {
@@ -276,7 +277,7 @@ h3.breaker2 {
 	color:black;
 	text-align: center;
 	font-size: 22px;
-	margin-top: 30px;
+	margin-top: 10px;
 	margin-bottom: 10px;
 	background-color:lightgray;
 	width: 60px;
@@ -287,7 +288,7 @@ h3.breaker2 {
 }
 
 .timeline {
-	width: 800px;
+	width: 650px;
 	margin: auto;
 }
 
