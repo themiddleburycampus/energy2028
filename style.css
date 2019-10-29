@@ -8,10 +8,10 @@
 }
 
 .item {
-	width: 650px;
+	width: 800px;
 	margin: auto;
-	margin-top: 25px;
-	margin-bottom: 35px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 	background-color: white;
 	text-align: left;
 }
@@ -37,18 +37,19 @@ h2.subhead {
 	margin-top: 10px;
 	font-size: 16px;
 	line-height: 20px;
-	color: black;
+	color: gray;
 	font-family: Georgia, Times, "Times New Roman", serif;
 }
 
 .item_desc {
 	text-align: left;
-	margin: auto;
-	width: 500px;
+	width: 450px;
 	line-height: 20px;
 	font-size: 16px;
 	margin-top: 5px;
-	color: dimgray;
+	color: black;
+	margin-left: 23px;
+	margin-bottom: 25px;
 }
 
 
@@ -85,7 +86,7 @@ h1 {
 	font-size: 48px; 
 	font-weight: 500;
 	margin: auto;
-	margin-top: 25px;
+	margin-top: 50px;
 	color: gray;
 }
 
@@ -97,7 +98,7 @@ figcaption {
 
 
 .article {
-	font-size: 18px; 
+	font-size: 24px; 
 	margin-top:25px;
 	line-height: 50px;
 	color: gray;
@@ -159,12 +160,11 @@ body {
 
 a {
 	text-decoration: none;
-	color: black;
+	color: #e37d00;
 }
 
 a:hover {
-	color: gray;
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 .body {
@@ -173,10 +173,15 @@ a:hover {
 
 p a {
 	text-decoration: none;
-	color: #3A5D8C;
+	color: #e37d00;
 }
 
 p a:hover{
+	text-decoration: underline;
+	color: #e37d00;
+}
+
+a.article2:hover {
 	text-decoration: none;
 }
 
@@ -207,36 +212,80 @@ h3.breaker {
 	font-weight: normal;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 50px;
-	margin-bottom: 25px;
+	margin-top: 75px;
+	margin-bottom: 30px;
 	text-align: center;
 }
 
 h3.breaker2 {
-	font-size: 28px;
+	font-size: 30 px;
 	margin-top: 35px;
 	margin-bottom: 25px;
+	margin-left: 0px;
 	text-align:center;
 	font-weight:normal;
-	width: 450px;
+	width: 600px;
+}
+
+.event {
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	align-items: center;
 }
 
 .item_date {
-	text-align: center;
-	font-size: 16px;
-	font-weight: bold;
-	color: black;
+	text-align: left;
+	font-size: 20px;
+	font-weight: normal;
+	color: gray;
+	width: auto;
+	margin-top: 0px;
 }
 
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 0px;
+  border: 2px lightgray solid;
+  margin-left: -10px;
+}
+
+.landmark {
+	border: none;
+	display: inline-flex;
+	height: 40px;
+}
+
+.landmark:focus {
+    outline: 0;
+}
+
+
 .item_year {
-	color:black;
+	color:gray;
 	text-align: center;
-	font-size: 32px;
-	margin-top: 50px;
-	margin-bottom: 25px;
+	font-size: 22px;
+	margin-top: 30px;
+	margin-bottom: 10px;
 	background-color:lightgray;
-	border-radius: 10px;
-	width: 130px;
+	width: 60px;
+	margin-left: 0px;
+	font-weight: normal;
+	border-top-right-radius: 10%;
+	border-bottom-right-radius: 10%;
+}
+
+.timeline {
+	width: 650px;
+	margin: auto;
+}
+
+.actual_timeline {
+	border-left: 2px lightgray solid;
 }
 
 
@@ -244,7 +293,7 @@ h3.breaker2 {
 .date {
 	font-family: PT Sans;
 	color: black;
-	font-size: 16px;
+	font-size: 20px;
 	margin-bottom: 5px;
 	width: auto;
 	text-align: left;
@@ -255,7 +304,7 @@ h3.breaker2 {
 .date_2 {
 	font-family: PT Sans;
 	color: gray;
-	font-size: 18px;
+	font-size: 16px;
 	margin-bottom: 5px;
 	width: auto;
 	text-align: left;
@@ -263,10 +312,12 @@ h3.breaker2 {
 }
 
 .item_title {
-	text-align: center;
+	text-align: left;
 	font-size: 26px;
 	margin-top: 0px;
 	font-weight: bold;
+	margin-left: 23px;
+	width: auto;
 }
 
 .title {
@@ -296,16 +347,40 @@ h3.breaker2 {
 
 h4:first-of-type {
 	margin-top: 35px;
+	margin-bottom: 50px;
 }
 
 h4 {
 	text-align: center;
 	font-family: PT Sans;
-	font-size: 14px; 
+	font-size: 16px; 
+	font-weight: 300;
+	margin: auto;
+	margin-top: 5px;
+	margin-bottom: 35px;
+	color: black;
+}
+
+h4.byline {
+	text-align: center;
+	font-family: PT Sans;
+	font-size: 16px; 
+	font-weight: 300;
+	margin: auto;
+	margin-top: 35px;
+	color: black;
+	margin-bottom: 5px;
+}
+
+h4.date {
+	text-align: center;
+	font-family: PT Sans;
+	font-size: 16px; 
 	font-weight: 300;
 	margin: auto;
 	margin-top: 5px;
 	color: black;
+	margin-bottom: 10px;
 }
 
 h4 a {
