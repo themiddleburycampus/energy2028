@@ -241,10 +241,14 @@ h3.breaker2 {
 	align-items: center;
 }
 
-.button-group {
+div.button-group {
+	flex-direction: row;
 	margin:auto;
 	max-width: 500px;
 	margin-top: 20px;
+	width: 75%;
+	align-items: center;
+	justify-content: space-between;
 }
 
 .item_date {
@@ -454,6 +458,7 @@ h4 a:hover {
 	}
 	h1.article-title {
 		max-width:95%!important;
+		font-family: Arial;
 		
 	}
 	#title {
@@ -464,8 +469,9 @@ h4 a:hover {
 	p {
 		width: 95%;
 		max-width: 100%;
-		line-height: 60px;
-		font-size: 16px;
+		line-height: 28px!important;
+		font-size: 18px!important;
+		font-family: Georgia, serif;;
 	}
 
 	.header {
@@ -482,6 +488,7 @@ h4 a:hover {
 	.landmark2 {
 		height: 70px;
 		font-size: 30px!important;
+		width: 30%;
 	}
 
 	.item_date2 {
