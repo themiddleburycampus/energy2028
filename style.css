@@ -117,7 +117,7 @@ figcaption {
 }
 
 .article-title-part {
-	font-size: 20px;
+	font-size: 24px;
 	color: #e37d00;
 	margin-top: 25px;
 	line-height: 20px;
@@ -248,6 +248,15 @@ h3.breaker2 {
 }
 
 .item_date {
+	text-align: left;
+	font-size: 20px;
+	font-weight: normal;
+	color: black;
+	width: auto;
+	margin-top: 0px;
+}
+
+.item_date2 {
 	text-align: left;
 	font-size: 20px;
 	font-weight: normal;
@@ -429,5 +438,86 @@ h4 a {
 h4 a:hover {
 	text-decoration: none;
 	color: gray;
+}
+
+@media only screen and (max-device-width: 480px) {
+
+	img.logo {
+		width: 70%;
+	}
+
+	h1.article {
+		padding: 9px!important;
+		font-size: 35px;
+		line-height: 60px;
+	}
+	h1.article-title {
+		max-width:95%!important;
+		
+	}
+	#title {
+		font-size: 95px!important;
+		line-height: 105px!important;
+		width:90%;
+	}
+	p {
+		width: 95%;
+		max-width: 100%;
+		line-height: 60px;
+		font-size: 16px;
+	}
+
+	.header {
+		max-width: 95%;
+	}
+
+	.button-group {
+		max-width: 100%;
+		align-items: center;
+		justify-content: center;
+		width: 75%;
+	}
+
+	.landmark2 {
+		height: 70px;
+		font-size: 30px!important;
+	}
+
+	.item_date2 {
+		font-size: 40px!important;
+	}
+
+	figure {
+		width: 100%;
+		max-width: 100%!important;
+	}
+
+	h3.breaker {
+		font-size: 70px!important;
+		max-width: 90%;
+		width: 90%;
+	}
+	#span_logo {padding:15px!important;}
+	h6{
+		font-size: 50px!important;
+		margin-top: 50px;
+	}
+	h5 {
+		font-size: 14px!important;
+		width: 90%!important;
+	}
+
+	.timeline {
+		width: 95%;
+	}
+
+	.item {
+		width:100%;
+	}
+
+	.item_desc {
+		width: 90%;
+		font-size: 16px;
+	}
 }
 
