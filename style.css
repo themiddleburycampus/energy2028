@@ -241,6 +241,12 @@ h3.breaker2 {
 	align-items: center;
 }
 
+.button-group {
+	margin:auto;
+	max-width: 350px;
+	margin-top: 20px;
+}
+
 .item_date {
 	text-align: left;
 	font-size: 20px;
@@ -272,6 +278,28 @@ h3.breaker2 {
     outline: 0;
 }
 
+.landmark2 {
+	border: 1px solid gray;
+	display: inline-flex;
+	height: 30px;
+	background-color: white;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.landmark2:first-of-type {
+	margin-left: 0px;
+}
+
+.landmark2:last-of-type {
+	margin-right: 0px;
+}
+
+.landmark2:focus {
+    outline: 0;
+}
+
+
 
 .item_year {
 	color:black;
@@ -294,6 +322,7 @@ h3.breaker2 {
 
 .actual_timeline {
 	border-left: 2px lightgray solid;
+	margin-top: 35px;
 }
 
 
